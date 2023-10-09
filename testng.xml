@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/irush/IdeaProjects/API_Testing/api_testing">
+        <classes>
+            <class name="tests.CreateEntityTest">
+                <methods>
+                    <include name="createEntity"/>
+                </methods>
+            </class>
+            <class name="tests.DeleteEntityTest">
+                <methods>
+                    <include name="deleteEntity"/>
+                </methods>
+            </class>
+            <class name="tests.GetAllEntitiesTest">
+                <methods>
+                    <include name="getAllEntities"/>
+                </methods>
+            </class>
+            <class name="tests.GetEntityTest">
+                <methods>
+                    <include name="getEntity"/>
+                </methods>
+            </class>
+            <class name="tests.UpdateEntityTest">
+                <methods>
+                    <include name="updateEntity"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
