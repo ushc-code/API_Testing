@@ -8,6 +8,5 @@ public class ResponseError {
     public ResponseError(@JsonProperty("error") String errorMessage) {
         this.errorMessage = errorMessage;
     }
-
     public String errorMessage;
 }

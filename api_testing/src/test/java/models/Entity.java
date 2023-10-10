@@ -3,15 +3,11 @@ package models;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Entity {
-    @JsonProperty("addition")
     public Addition addition;
     @JsonProperty("important_numbers")
     public int[] importantNumbers;
-    @JsonProperty("title")
     public String title;
-    @JsonProperty("id")
     public String id;
-    @JsonProperty("verified")
     public Boolean verified;
 
 
@@ -21,6 +17,4 @@ public class Entity {
         this.title = title;
         this.verified = verified;
     }
-
-
 }

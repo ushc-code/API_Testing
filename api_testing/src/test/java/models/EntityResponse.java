@@ -6,15 +6,10 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.ArrayList;
 
 public class EntityResponse {
-
     public Addition addition;
-
     public ArrayList<Integer> importantNumbers;
-
     public String title;
-
     public String id;
-
     public Boolean verified;
 
     @JsonCreator
@@ -26,5 +21,7 @@ public class EntityResponse {
         this.verified = verified;
 
     }
-
+    public String toString(EntityResponse entityResponse) {
+        return "{" + entityResponse + "}";
+    }
 }

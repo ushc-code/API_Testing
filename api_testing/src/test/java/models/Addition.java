@@ -7,9 +7,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class Addition {
     public String id;
     public String additionalInfo;
-
     public Integer additionalNumber;
-
 
     public Addition(String additionalInfo, Integer additionalNumber) {
         this.additionalInfo = additionalInfo;
@@ -22,5 +20,4 @@ public class Addition {
         this.additionalNumber = additionalNumber;
         this.id = id;
     }
-
 }
